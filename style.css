@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+    background-color: #333;
+}
+
+a{
+    text-decoration: none;
+    color: white;    
+}
+
+[ui-target]{
+    display: block;
+    margin: 1px;
+    background-color: red;
+}
+
+[ui-list]{
+    overflow: hidden;
+    transition: .4s;
+}
